@@ -1,6 +1,6 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brews = (
+brews=(
 	bash-completion
 	mysql
 	youtube-dl
@@ -9,7 +9,7 @@ brews = (
 	speedtest-cli
 )
 
-casks = (
+casks=(
 	sequel-pro
 	postman
 	vlc
@@ -30,13 +30,13 @@ git config --global core.excludesfile ~/.gitignore_global
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-for i in “${(brews[@]}”
+for i in “${brews[@]}”
 do
 	:
 	brew install $i
 done
 
-for i in “${(casks[@]}”
+for i in “${casks[@]}”
 do
 	:
 	brew cask install $i
@@ -46,5 +46,5 @@ brew cleanup
 brew cask cleanup
 
 sudo easy_install pip
-suso pip install virtualenv
+sudo pip install virtualenv
 
