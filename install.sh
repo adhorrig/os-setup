@@ -48,3 +48,4 @@ brew cask cleanup
 sudo easy_install pip
 sudo pip install virtualenv
 
+brew services start mysql
