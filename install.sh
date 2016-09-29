@@ -26,6 +26,9 @@ git config --global alias.st status
 git config --global alias.com checkout master
 cp .gitignore_global ~/
 git config --global core.excludesfile ~/.gitignore_global
+ssh-keygen -t rsa -b 4096 -C "adhorrig@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
 
 brew tap caskroom/cask
 brew tap caskroom/versions
