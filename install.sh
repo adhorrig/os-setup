@@ -7,6 +7,7 @@ brews=(
 	node
 	git
 	speedtest-cli
+	r
 )
 
 casks=(
@@ -19,6 +20,8 @@ casks=(
 	google-chrome
 	skype
 	webstorm
+	franz
+	rstudio
 )
 
 git config --global alias.lol log --oneline --graph --decorate --all
@@ -32,6 +35,8 @@ ssh-add ~/.ssh/id_rsa
 
 brew tap caskroom/cask
 brew tap caskroom/versions
+brew tap homebrew/science
+
 
 for i in “${brews[@]}”
 do
