@@ -22,6 +22,7 @@ casks=(
 	webstorm
 	franz
 	rstudio
+	bittorrent-sync
 )
 
 git config --global alias.lol log --oneline --graph --decorate --all
