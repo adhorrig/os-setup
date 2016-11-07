@@ -22,7 +22,7 @@ casks=(
 	webstorm
 	franz
 	rstudio
-	bittorrent-sync
+	mysqlworkbench
 )
 
 git config --global alias.lol log --oneline --graph --decorate --all
