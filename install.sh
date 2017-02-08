@@ -14,7 +14,7 @@ casks=(
 	sequel-pro
 	postman
 	vlc
-	atom
+	visual-studio-code
 	qbittorrent
 	slack
 	google-chrome
